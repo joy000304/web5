@@ -1,6 +1,8 @@
+body{
+  margin: 0;
+}
 a {
   color:black;
-  font-size:25px;
   font-weight: bold;
 }
 h1{
@@ -8,14 +10,14 @@ h1{
   margin:0;
   padding: 40px 0px;
   text-align: center;
-  border-bottom:1px solid gray;
+  border-bottom:5px solid black;
   text-decoration: none;
 }
 ol{
   margin:0;
   padding:50px;
-  border-right:1px solid gray;
-  width:250px;
+  border-right:5px solid black;
+  width:200px;
   font-size:25px;
   font-weight: bold;
 }
@@ -29,10 +31,14 @@ p{
 #grid {
   display: grid;
   grid-template-columns: 300px 1fr;
+  width: 200px;
+  padding-left:40px;
 }
 #grid #article{
   padding:  1em 0px 30px 0px;
   text-align: center;
+  margin: 0;
+  width: 1400px; height: 800px;
 }
 @media(max-width:800px){
   #grid {
